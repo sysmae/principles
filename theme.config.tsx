@@ -3,6 +3,10 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
   logo: <span>원칙</span>,
+  footer: {
+    text: '원칙',
+  },
+
   // project: {
   //   link: 'https://github.com/sysmae',
   // },
@@ -10,9 +14,6 @@ const config: DocsThemeConfig = {
   //   link: 'https://discord.com',
   // },
   // docsRepositoryBase: 'https://github.com/sysmae/principles',
-  footer: {
-    text: '원칙',
-  },
 }
 
 export default config
