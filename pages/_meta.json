@@ -1,7 +1,7 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "index": "원칙",
+  "life": "인생의 원칙",
+  "work": "일의 원칙",
   "about": {
     "title": "About",
     "type": "page"
@@ -9,7 +9,7 @@
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://discord.com",
     "newWindow": true
   }
 }
