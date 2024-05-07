@@ -1,7 +1,10 @@
 {
   "index": "원칙",
   "life": "인생의 원칙",
-
+  "about": {
+    "title": "About",
+    "type": "page"
+  },
   "contact": {
     "title": "Contact ↗",
     "type": "page",
