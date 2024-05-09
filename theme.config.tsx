@@ -13,7 +13,15 @@ const config: DocsThemeConfig = {
   // chat: {
   //   link: 'https://discord.com',
   // },
-  // docsRepositoryBase: 'https://github.com/sysmae/principles',
+  docsRepositoryBase: 'https://github.com/sysmae/principles',
+  editLink: {
+    text: 'Edit on GitHub',
+    component: ({ children, className, filePath }) => (
+      <a href={`${config.docsRepositoryBase}/edit/main/${filePath}`} className={className}>
+        {children}
+      </a>
+    ),
+  },
 }
 
 export default config
