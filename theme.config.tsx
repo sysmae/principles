@@ -15,7 +15,7 @@ const config: DocsThemeConfig = {
   // },
   docsRepositoryBase: 'https://github.com/sysmae/principles',
   editLink: {
-    text: 'Edit on GitHub',
+    text: '내용 수정',
     component: ({ children, className, filePath }) => (
       <a href={`${config.docsRepositoryBase}/edit/main/${filePath}`} className={className}>
         {children}
