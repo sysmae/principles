@@ -2,14 +2,14 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>원칙</span>,
+  logo: "원칙",
   footer: {
     text: '원칙',
   },
 
-  // project: {
-  //   link: 'https://github.com/sysmae',
-  // },
+  project: {
+    link: 'https://github.com/sysmae',
+  },
   // chat: {
   //   link: 'https://discord.com',
   // },
@@ -22,6 +22,10 @@ const config: DocsThemeConfig = {
       </a>
     ),
   },
+  "faviconGlyph":"💎",
+  "useNextSeoProps": () => ({
+   titleTemplate: '%s',
+  }),
 }
 
 export default config
