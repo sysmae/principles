@@ -3,8 +3,4 @@ const withNextra = require('nextra')({
   themeConfig: './theme.config.tsx',
 })
 
-module.exports = withNextra(
-  {
-    swcMinify: true,
-  }
-)
+module.exports = withNextra()
