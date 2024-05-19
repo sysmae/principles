@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.sysmae.com
+
+# Sitemaps
+Sitemap: https://www.sysmae.com/sitemap.xml

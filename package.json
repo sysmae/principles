@@ -1,10 +1,11 @@
 {
-  "name": "시스매의 원칙",
+  "name": "Sysmae Principles",
   "version": "0.0.1",
   "description": "시스매의 원칙",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build",    
+    "postbuild": "next-sitemap",
     "start": "next start"
   },
   "repository": {
@@ -17,9 +18,9 @@
     "url": "https://github.com/sysmae/principles/issues"
   },
   "homepage": "https://github.com/sysmae/principles#readme",
-  
   "dependencies": {
     "next": "^13.0.6",
+    "next-sitemap": "^4.2.3",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
     "react": "^18.2.0",
