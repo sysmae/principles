@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "시스매의 원칙",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev",    
+    "prebuild": "rm -rf .next",
     "build": "next build",    
     "postbuild": "next-sitemap",
     "start": "next start"
