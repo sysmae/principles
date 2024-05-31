@@ -28,6 +28,9 @@ const config: DocsThemeConfig = {
   "useNextSeoProps": () => ({
    titleTemplate: '%s',
   }),
+  footer: {
+      text: null
+  }
 }
 
 export default config
