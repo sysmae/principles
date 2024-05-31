@@ -1,5 +1,5 @@
 {
-  "index": "원칙",
+  "index": "시스매의 원칙",
   "life": "인생의 원칙",
   "about": {
     "title": "About",
@@ -8,7 +8,7 @@
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "",
+    "href": "https://discord.gg/vfXSdVDt",
     "newWindow": true
   }
 }
