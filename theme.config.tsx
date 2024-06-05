@@ -24,13 +24,13 @@ const config: DocsThemeConfig = {
     titleComponent({ title, type }) {
       if (type === 'separator') {
         return (
-          <div style={{ background: 'gray', textAlign: 'center' }}>{title}</div>
+          <div style={{ fontWeight: "bold", color: "violet", fontSize: "20px"}}>{title}</div>
         )
       }
       if (title === '시스매의 원칙') {
         return (
-          <div style={{}}>{title}</div>
-        )
+      <div style={{fontWeight: "bold", color: "violet", fontSize: "20px"}}>{title}</div>        
+    )
       }
       return <>{title}</>
     }
