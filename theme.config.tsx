@@ -27,7 +27,7 @@ const config: DocsThemeConfig = {
           <div style={{ fontWeight: "bold", color: "violet", fontSize: "20px"}}>{title}</div>
         )
       }
-      if (title === '시스매의 원칙') {
+      if (title === '[ 시스매의 원칙 ]') {
         return (
       <div style={{fontWeight: "bold", color: "violet", fontSize: "20px"}}>{title}</div>        
     )
