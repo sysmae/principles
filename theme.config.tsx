@@ -17,16 +17,30 @@ const config: DocsThemeConfig = {
     //     {children}
     //   </a>
     // ),
-
     text: null,
   },
 
+  sidebar: {
+    titleComponent({ title, type }) {
+      if (type === 'separator') {
+        return (
+          <div style={{ background: 'gray', textAlign: 'center' }}>{title}</div>
+        )
+      }
+      if (title === '시스매의 원칙') {
+        return (
+          <div style={{}}>{title}</div>
+        )
+      }
+      return <>{title}</>
+    }
+  },
   feedback: {
     content: null
   },
   "faviconGlyph":"💎",
   "useNextSeoProps": () => ({
-   titleTemplate: '%s',
+   titleTemplate: '%s', 
   }),
   footer: {
       text: null

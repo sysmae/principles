@@ -1,12 +1,21 @@
 {
-  "index": "시스매의 원칙",
-  "life": "인생의 원칙",
+  "index": {
+    "title":"시스매의 원칙"
+  },
+  "life": {
+    "title":"인생의 원칙"
+  },
   "about": {
     "title": "소개",
     "type": "page"
   },
+  "--": {
+    "type": "separator",
+    "title": "멘토의 원칙"
+  },
+  "ray_dalio": "레이달리오의 원칙",
   "contact": {
-    "title": "Contact ↗",
+    "title": "피드백 ↗",
     "type": "page",
     "href": "https://discord.gg/vfXSdVDt",
     "newWindow": true
