@@ -6,9 +6,6 @@ const config: DocsThemeConfig = {
   project: {
     link: 'https://github.com/sysmae',
   },
-  chat: {
-    link: 'https://discord.gg/vfXSdVDt',
-  },
   docsRepositoryBase: 'https://github.com/sysmae/principles',
   editLink: {
     // text: '내용 수정',

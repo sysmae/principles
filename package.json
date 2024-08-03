@@ -6,7 +6,6 @@
     "dev": "next dev",    
     "prebuild": "rm -rf .next",
     "build": "next build",    
-    "postbuild": "next-sitemap",
     "start": "next start"
   },
   "repository": {
@@ -21,7 +20,6 @@
   "homepage": "https://github.com/sysmae/principles#readme",
   "dependencies": {
     "next": "^13.0.6",
-    "next-sitemap": "^4.2.3",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
     "react": "^18.2.0",
