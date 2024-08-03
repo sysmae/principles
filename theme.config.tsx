@@ -2,7 +2,7 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: "시스매의 원칙",
+  logo: "Principles",
   project: {
     link: 'https://github.com/sysmae',
   },
@@ -19,18 +19,22 @@ const config: DocsThemeConfig = {
 
   sidebar: {
     titleComponent({ title, type }) {
-      if (type === 'separator') {
+      if (title === '[ 멘토의 원칙 ]') {
         return (
-          <div style={{ fontWeight: "bold", color: "violet", fontSize: "20px"}}>{title}</div>
+          <div style={{ fontWeight: "bold", color: "violet", fontSize: "15px"}}>{title}</div>
         )
       }
       if (title === '[ 시스매의 원칙 ]') {
         return (
-      <div style={{fontWeight: "bold", color: "violet", fontSize: "20px"}}>{title}</div>        
+      <div style={{fontWeight: "bold", color: "violet", fontSize: "15px"}}>{title}</div>        
     )
       }
+
       return <>{title}</>
-    }
+    },
+    toggleButton:true,
+    defaultMenuCollapseLevel: 3 // 자동으로 열려있게 하는 요인
+
   },
   feedback: {
     content: null

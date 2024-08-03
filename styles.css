@@ -1,3 +1,9 @@
 footer {
   display: none;
 }
+
+.nextra-scrollbar {
+  a {
+    padding: 1.5px 0px;
+  }
+}
