@@ -5,22 +5,10 @@
   "life": {
     "title":"인생의 원칙"
   },
-  "work": {
-    "title":"일의 원칙"
+  "mentor":{
+    "title":"[ 멘토의 원칙 ]"
   },
-  "about": {
-    "title": "소개",
-    "type": "page"
-  },
-  "--": {
-    "type": "separator",
-    "title": "[ 멘토의 원칙 ]"
-  },
-  "ray-dalio": "레이 달리오의 원칙",
-  "charlie-munger":"찰리 멍거의 원칙",
-  "jordan-peterson": "조던 피터슨의 원칙",
-  "peter-buffett":"피터 버핏의 원칙",
-  "dale-carnegie":"데일 카네기의 원칙",
+
   "contact": {
     "title": "피드백 ↗",
     "type": "page",
