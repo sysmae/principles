@@ -21,12 +21,12 @@ const config: DocsThemeConfig = {
     titleComponent({ title, type }) {
       if (title === '[ 멘토의 원칙 ]') {
         return (
-          <div style={{ fontWeight: "bold", color: "violet", fontSize: "15px"}}>{title}</div>
+          <div style={{ fontWeight: "bold", color: "violet", fontSize: "16px"}}>{title}</div>
         )
       }
       if (title === '[ 시스매의 원칙 ]') {
         return (
-      <div style={{fontWeight: "bold", color: "violet", fontSize: "15px"}}>{title}</div>        
+      <div style={{fontWeight: "bold", color: "violet", fontSize: "16px"}}>{title}</div>        
     )
       }
 
