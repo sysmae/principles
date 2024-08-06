@@ -1,19 +1,18 @@
 {
   "index": {
-    "title":"[ 시스매의 원칙 ]"
+    "title": "[ 시스매의 원칙 ]"
   },
   "life": {
-    "title":"인생의 원칙"
+    "title": "인생의 원칙"
   },
-  "mentor":{
-    "title":"[ 멘토의 원칙 ]"
+  "mentor": {
+    "title": "[ 멘토의 원칙 ]"
   },
 
   "contact": {
-    "title": "피드백 ↗",
+    "title": "LinkedIn",
     "type": "page",
     "href": "https://www.linkedin.com/in/jin-hyun-kim-4a9418316",
     "newWindow": true
   }
 }
- 
